@@ -1,0 +1,21 @@
+{
+    "version": "1.0.0",
+    "name": "tiagolopes/portfolio-dev",
+    "description": "Desafio prático do nível 1 da Formação de React da Rocketseat",
+    "type": "project",
+    "autoload": {
+        "psr-4": {
+            "Tiagolopes\\PortfolioDev\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "Tiago Lopes",
+            "email": "tiagoltavares2002@gmail.com"
+        }
+    ],
+    "scripts": {
+        "dev": "php -S localhost:3333 -t ./public"
+    },
+    "require": {}
+}
